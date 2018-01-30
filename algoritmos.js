@@ -45,4 +45,18 @@ for (let fruit in fruits) {
   console.log(fruits[fruit])
 }
 
-
+// Switch case evalua el valor de una variable y
+// ejecuta un set de codigo si cumple con la  condicion
+fruits.forEach(fruit => {
+  switch (fruit) {
+    case 'pera':
+      console.log('esto es una pera')
+      break;
+    case 'piña':
+      console.log('esto es una piña')
+      break;
+    case 'manzana':
+      console.log('esto es una manzana')
+      break;
+  }
+})
