@@ -44,6 +44,8 @@ var nelson = {
   name: 'nelson',
   age: 23,
   head: 1,
+  // asignacion de key string
+  'full name': 'nelson marcano',
   arms: 2,
   //esto es un metodo del objeto nelson
   sayName: function (){
@@ -54,6 +56,9 @@ var nelson = {
   },
   legs: 2,
 };
+
+// asignacion mediante corchetes
+nelson['last name'] = marcano
 
 // Llamado al metodo de sayName de nelson 
 nelson.sayName()
